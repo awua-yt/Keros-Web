@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 export function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/51987654321"
+      href="https://wa.me/51992344153"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0 }}
