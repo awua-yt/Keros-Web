@@ -37,9 +37,7 @@ export function ContactSection() {
               <div>
                 <h3 className="text-xl text-[#1F2937] mb-2">Horario de Atención</h3>
                 <div className="text-gray-600 space-y-1">
-                  <p>Lunes a Jueves: 8:00 AM - 11:00 PM</p>
-                  <p>Viernes y Sábado: 8:00 AM - 12:00 AM</p>
-                  <p>Domingo: 9:00 AM - 10:00 PM</p>
+                  <p>Lunes a Sábado de 6PM a 11PM</p>
                 </div>
               </div>
             </div>
@@ -78,10 +76,10 @@ export function ContactSection() {
               <div>
                 <h3 className="text-xl text-[#1F2937] mb-2">Teléfono</h3>
                 <a
-                  href="tel:+51976514444"
+                  href="tel:+51992344153"
                   className="text-gray-600 hover:text-[#DC2626] transition-colors"
                 >
-                  +51 976 514 444
+                  +51 992 344 153
                 </a>
               </div>
             </div>
@@ -109,7 +107,7 @@ export function ContactSection() {
               <h3 className="text-xl text-[#1F2937] mb-4">Síguenos en Redes Sociales</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://instagram.com/keroscafe"
+                  href="https://www.instagram.com/keros.pe/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center text-white hover:scale-110 transition-transform"
@@ -117,7 +115,7 @@ export function ContactSection() {
                   <Instagram className="w-6 h-6" />
                 </a>
                 <a
-                  href="https://facebook.com/keroscafe"
+                  href="https://www.facebook.com/KerosCB"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white hover:scale-110 transition-transform"
@@ -147,7 +145,7 @@ export function ContactSection() {
             className="h-[500px] rounded-lg overflow-hidden shadow-lg"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15899.784958694287!2d-78.51638!3d-7.16181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25a3f8b1e1e3f%3A0x1234567890abcdef!2sCajamarca%2C%20Peru!5e0!3m2!1sen!2sus!4v1234567890123"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4479.406721229987!2d-78.507989!3d-7.150800999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDknMDIuOSJTIDc4wrAzMCcyOC44Ilc!5e1!3m2!1ses-419!2spe!4v1771306948476!5m2!1ses-419!2spe"
               width="100%"
               height="100%"
               style={{ border: 0 }}
