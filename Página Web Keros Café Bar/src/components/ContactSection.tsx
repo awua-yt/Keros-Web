@@ -94,10 +94,10 @@ export function ContactSection() {
               <div>
                 <h3 className="text-xl text-[#1F2937] mb-2">Email</h3>
                 <a
-                  href="mailto:hola@keroscafe.com"
+                  href="mailto:cafekeros870@gmail.com"
                   className="text-gray-600 hover:text-[#DC2626] transition-colors"
                 >
-                  hola@keroscafe.com
+                  cafekeros870@gmail.com
                 </a>
               </div>
             </div>
