@@ -45,9 +45,9 @@ export function Footer() {
           <div>
             <h4 className="text-lg mb-4">Contacto</h4>
             <ul className="space-y-2 text-gray-300">
-              <li>Jr. Amazonas 123, Cajamarca</li>
-              <li>+51 987 654 321</li>
-              <li>hola@keroscafe.com</li>
+              <li>Jr. San Andrés 140 - Primer Nivel Interior 2</li>
+              <li>+51 992 344 153</li>
+              <li>cafekeros870@gmail.com</li>
               <li className="pt-2">
                 <span className="text-gray-400">Síguenos:</span>
                 <div className="flex gap-2 mt-2">

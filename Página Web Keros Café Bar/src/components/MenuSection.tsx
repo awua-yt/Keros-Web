@@ -25,14 +25,16 @@ const menuData = {
   cafes: [
     {
       name: "Espresso de Cajamarca",
-      price: "S/ 8.00",
+      price: "S/ 6.90",
       description:
         "Intenso y aromático, directo de las alturas cajamarquinas.",
       featured: false,
+      image:
+        "https://cdn.mesa247.io/archivos/local/foto/2025/09/fnyhw-foto-fotonetflix3-cafeina-gourmet-espresso-bar-1.jpg",
     },
     {
       name: "Cappuccino Arte Latte",
-      price: "S/ 12.00",
+      price: "S/ 11.90",
       description:
         "Nuestro cappuccino signature con arte personalizado por nuestros baristas expertos.",
       featured: true,
@@ -41,7 +43,7 @@ const menuData = {
     },
     {
       name: "Espresso Tonic",
-      price: "S/ 14.00",
+      price: "S/ 13.90",
       description:
         "Una explosión refrescante de café y cítricos, ideal para las tardes de sol.",
       featured: true,
@@ -50,60 +52,83 @@ const menuData = {
     },
     {
       name: "Latte Vainilla",
-      price: "S/ 11.00",
+      price: "S/ 10.90",
       description: "Suave y dulce, perfecto para cualquier momento del día.",
       featured: false,
+      image:
+        "https://dfrnt.coffee/cdn/shop/articles/descubre-como-preparar-un-latte-de-vainilla-perfecto-en-casa-738665.png?v=1733918359",
     },
   ],
   cocteles: [
     {
       name: "Pisco Sour Keros",
-      price: "S/ 22.00",
+      price: "S/ 19.90",
       description:
-        "Nuestra versión del clásico peruano, con un toque de maracuyá cajamarquino.",
+        "¡Déjate llevar por la frescura del limón y la intensidad del Pisco en cada sorbo!",
       featured: true,
       image:
-        "https://images.unsplash.com/photo-1681579289844-cc57e4d60e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGNvY2t0YWlscyUyMGJhcnxlbnwxfHx8fDE3NjQzNzE4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://www.instagram.com/p/C25-1h6IVWj/",
     },
     {
-      name: "Mojito de Hierbabuena",
-      price: "S/ 20.00",
+      name: "Chilcano | Limón, Arándano, Fresa, Maracuyá",
+      price: "S/ 19.90",
       description:
-        "Refrescante y aromático, con hierbabuena fresca del mercado local.",
+        "¡Descubre el sabor auténtico en Keros Bar!",
       featured: false,
+      image:
+        "https://www.instagram.com/p/C20s3A3tllm/",
     },
     {
-      name: "Chilcano Tradicional",
-      price: "S/ 18.00",
-      description: "Simple, clásico y perfecto para cualquier ocasión.",
+      name: "Gin Tónic",
+      price: "S/ 29.90",
+      description: "¿Sabías que originalmente no se servía con fresas ni ninguna otra fruta?",
       featured: false,
+      image:
+        "https://www.instagram.com/p/C2vsk_HMQrm/?img_index=1",
     },
     {
-      name: "Negroni de Autor",
-      price: "S/ 25.00",
+      name: "Margarita",
+      price: "S/ 14.90",
       description:
-        "Una reinterpretación moderna del clásico italiano con gin botánico.",
+        "¡La fiesta está en cada sorbo!",
       featured: false,
+      image:
+        "https://www.instagram.com/p/C2iVQWBAshI/",
+    },
+    {
+      name: "Mohito | Limón, Arándano, Fresa, Maracuyá",
+      price: "S/ 12.90",
+      description:
+        "¡Perfecto para compartir con amigos y disfrutar de momentos inolvidables!",
+      featured: false,
+      image:
+        "https://www.instagram.com/p/C2S9ECfv0Kq/",
     },
   ],
   sinAlcohol: [
     {
       name: "Limonada Frozen",
-      price: "S/ 10.00",
+      price: "S/ 8.90",
       description: "Refrescante y perfecta para el clima cajamarquino.",
       featured: false,
+      image:
+        "https://polleriaslagranja.com/wp-content/uploads/2022/10/La-Granja-Real-Food-Chicken-Limonada-Frozen.png",
     },
     {
       name: "Té Helado de Frutas",
-      price: "S/ 9.00",
+      price: "S/ 7.90",
       description: "Una mezcla de frutas de estación con té negro.",
       featured: false,
+      image:
+        "https://lalagunaahora.com/wp-content/uploads/2024/08/te-helado-.jpg",
     },
     {
       name: "Smoothie Verde",
-      price: "S/ 14.00",
+      price: "S/ 12.90",
       description: "Espinaca, manzana verde, plátano y miel.",
       featured: false,
+      image:
+        "https://blogsmarttravelers.areas.com/sites/blogsmarttravelers.areas.com/files/uploads/2023/06/Smothie-Verde-e1686306631495.jpg",
     },
   ],
   piqueos: [
@@ -117,51 +142,61 @@ const menuData = {
         "https://images.unsplash.com/photo-1687269850754-be2607366462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXBhcyUyMGZvb2QlMjBzaGFyaW5nfGVufDF8fHx8MTc2NDM3MTkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
     },
     {
-      name: "Alitas BBQ",
-      price: "S/ 28.00",
-      description: "Crujientes alitas bañadas en nuestra salsa BBQ secreta.",
+      name: "Churros",
+      price: "S/ 9.90",
+      description: "El dulzor que le da el toque a tu bebida.",
       featured: false,
+      image:
+        "https://www.instagram.com/p/C2Ly7d2MG92/?img_index=1",
     },
     {
-      name: "Tequeños con Guacamole",
-      price: "S/ 22.00",
-      description: "Clásico venezolano con nuestro guacamole casero.",
+      name: "Tequeños",
+      price: "S/ 11.90",
+      description: "Un sabor saladito nunca viene mal.",
       featured: false,
+      image:
+        "https://www.instagram.com/p/C2Ly7d2MG92/?img_index=2",
     },
     {
-      name: "Papas Bravas Keros",
-      price: "S/ 18.00",
+      name: "Papas Keros",
+      price: "S/ 10.90",
       description: "Papas crujientes con dos salsas especiales de la casa.",
       featured: false,
+      image:
+        "https://www.instagram.com/p/C2Ly7d2MG92/?img_index=3",
     },
   ],
   carnes: [
     {
-      name: "Cuy con Papas",
-      price: "S/ 45.00",
+      name: "Anticuchos",
+      price: "S/ 9.90",
       description:
-        "Cuy criollo dorado al horno, acompañado de papas doradas y ensalada fresca. Un clásico cajamarquino.",
+        "Corazón cajamarquino en tu mesa.",
       featured: true,
       image:
-        "https://images.unsplash.com/photo-1529042410759-befb1204b468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJ1dmlhbiUyMGZvb2QlMjBncmlsbGVkfGVufDF8fHx8MTczNzEwMDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://comidasperuanas.net/wp-content/uploads/2015/06/Anticuchos-de-Coraz%C3%B3n-Peruanos.jpg",
     },
     {
       name: "Lomo Saltado",
-      price: "S/ 32.00",
+      price: "S/ 19.90",
       description:
         "Tiras de lomo fino salteadas con cebolla, tomate y papas fritas. El clásico peruano.",
       featured: false,
+      image:
+        "https://agraria.pe/imgs/a/lx/un-plato-de-lomo-saltado-gourmet-a-65-soles-desata-intenso-d-15847.jpg",
     },
     {
       name: "Bistec a lo Pobre",
-      price: "S/ 35.00",
+      price: "S/ 29.90",
       description:
         "Bistec de res con huevo frito, plátano frito, papas fritas y arroz blanco.",
       featured: false,
+      image:
+        "https://storage.googleapis.com/takeapp/media/cm3i7gujg00050cjn0o046y2m.jpg",
     },
     {
       name: "Parrilla Keros",
-      price: "S/ 55.00",
+      price: "S/ 54.90",
       description:
         "Selección de carnes a la parrilla: lomo, pollo, chorizo y anticuchos. Para compartir.",
       featured: true,
@@ -170,10 +205,12 @@ const menuData = {
     },
     {
       name: "Churrasco Cajamarquino",
-      price: "S/ 38.00",
+      price: "S/ 35.90",
       description:
         "Churrasco de res a la parrilla con chimichurri de la casa, ensalada y papas nativas.",
       featured: false,
+      image:
+        "https://www.farodapalloza.com/img/leoblog/b/1/63/lg-b-churrasco%20ternera-%20faro%20da%20palloza.jpg",
     },
   ],
 };
