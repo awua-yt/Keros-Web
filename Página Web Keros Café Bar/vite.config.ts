@@ -1,10 +1,13 @@
-
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
+  import Sitemap from 'vite-plugin-sitemap'
 
   export default defineConfig({
-    plugins: [react()],
+    plugins: [
+      react(),
+      Sitemap({ hostname: 'https://keros-cafe.vercel.app/' })
+    ],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
