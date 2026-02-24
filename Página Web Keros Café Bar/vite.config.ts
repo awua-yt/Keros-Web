@@ -6,7 +6,10 @@
   export default defineConfig({
     plugins: [
       react(),
-      Sitemap({ hostname: 'https://keros-cafe.vercel.app/' })
+      Sitemap({ 
+        hostname: 'https://keros-cafe.vercel.app/',
+        generateRobotsTxt: true 
+      })
     ],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
