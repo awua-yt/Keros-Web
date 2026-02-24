@@ -30,7 +30,7 @@ const menuData = {
         "Intenso y aromático, directo de las alturas cajamarquinas.",
       featured: false,
       image:
-        "https://cdn.mesa247.io/archivos/local/foto/2025/09/fnyhw-foto-fotonetflix3-cafeina-gourmet-espresso-bar-1.jpg",
+        "/img/expreso.png",
     },
     {
       name: "Cappuccino Arte Latte",
@@ -39,7 +39,7 @@ const menuData = {
         "Nuestro cappuccino signature con arte personalizado por nuestros baristas expertos.",
       featured: true,
       image:
-        "https://images.unsplash.com/photo-1669162364316-a74b2d661d1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXR0ZSUyMGFydCUyMGNvZmZlZXxlbnwxfHx8fDE3NjQyOTkzODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "/img/capuccino.png",
     },
     {
       name: "Espresso Tonic",
@@ -48,7 +48,7 @@ const menuData = {
         "Una explosión refrescante de café y cítricos, ideal para las tardes de sol.",
       featured: true,
       image:
-        "https://images.unsplash.com/photo-1756678506940-cf96f497dc84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMHRvbmljJTIwZ2xhc3N8ZW58MXx8fHwxNzY0MzcxOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "/img/expreso-tonic.png",
     },
     {
       name: "Latte Vainilla",
@@ -56,18 +56,26 @@ const menuData = {
       description: "Suave y dulce, perfecto para cualquier momento del día.",
       featured: false,
       image:
-        "https://dfrnt.coffee/cdn/shop/articles/descubre-como-preparar-un-latte-de-vainilla-perfecto-en-casa-738665.png?v=1733918359",
+        "/img/late.png",
+    },
+    {
+      name: "Latte Vainilla",
+      price: "S/ 10.90",
+      description: "Suave y dulce, perfecto para cualquier momento del día.",
+      featured: false,
+      image:
+        "/img/late.png",
     },
   ],
   cocteles: [
     {
-      name: "Pisco Sour Keros",
-      price: "S/ 19.90",
+      name: "Algarrobina Keros",
+      price: "S/ 14.90",
       description:
-        "¡Déjate llevar por la frescura del limón y la intensidad del Pisco en cada sorbo!",
+        "¡Algarrobina, rico!",
       featured: true,
       image:
-        "https://www.instagram.com/p/C25-1h6IVWj/",
+        "/img/algarrobina.png",
     },
     {
       name: "Chilcano | Limón, Arándano, Fresa, Maracuyá",
@@ -76,7 +84,7 @@ const menuData = {
         "¡Descubre el sabor auténtico en Keros Bar!",
       featured: false,
       image:
-        "https://www.instagram.com/p/C20s3A3tllm/",
+        "/img/chilcano.png",
     },
     {
       name: "Gin Tónic",
@@ -84,7 +92,7 @@ const menuData = {
       description: "¿Sabías que originalmente no se servía con fresas ni ninguna otra fruta?",
       featured: false,
       image:
-        "https://www.instagram.com/p/C2vsk_HMQrm/?img_index=1",
+        "/img/gin-tonic.png",
     },
     {
       name: "Margarita",
@@ -93,7 +101,7 @@ const menuData = {
         "¡La fiesta está en cada sorbo!",
       featured: false,
       image:
-        "https://www.instagram.com/p/C2iVQWBAshI/",
+        "/img/margarita.png",
     },
     {
       name: "Mohito | Limón, Arándano, Fresa, Maracuyá",
@@ -102,7 +110,7 @@ const menuData = {
         "¡Perfecto para compartir con amigos y disfrutar de momentos inolvidables!",
       featured: false,
       image:
-        "https://www.instagram.com/p/C2S9ECfv0Kq/",
+        "/img/mohito.png",
     },
   ],
   sinAlcohol: [
@@ -112,7 +120,7 @@ const menuData = {
       description: "Refrescante y perfecta para el clima cajamarquino.",
       featured: false,
       image:
-        "https://polleriaslagranja.com/wp-content/uploads/2022/10/La-Granja-Real-Food-Chicken-Limonada-Frozen.png",
+        "/img/limonada.png",
     },
     {
       name: "Té Helado de Frutas",
@@ -120,7 +128,7 @@ const menuData = {
       description: "Una mezcla de frutas de estación con té negro.",
       featured: false,
       image:
-        "https://lalagunaahora.com/wp-content/uploads/2024/08/te-helado-.jpg",
+        "/img/te-helado.png",
     },
     {
       name: "Smoothie Verde",
@@ -128,7 +136,7 @@ const menuData = {
       description: "Espinaca, manzana verde, plátano y miel.",
       featured: false,
       image:
-        "https://blogsmarttravelers.areas.com/sites/blogsmarttravelers.areas.com/files/uploads/2023/06/Smothie-Verde-e1686306631495.jpg",
+        "/img/verde.png",
     },
   ],
   piqueos: [
@@ -139,7 +147,7 @@ const menuData = {
         "Selección de quesos cajamarquinos acompañados de mermeladas artesanales.",
       featured: true,
       image:
-        "https://images.unsplash.com/photo-1687269850754-be2607366462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXBhcyUyMGZvb2QlMjBzaGFyaW5nfGVufDF8fHx8MTc2NDM3MTkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "/img/piqueo.png",
     },
     {
       name: "Churros",
@@ -147,7 +155,7 @@ const menuData = {
       description: "El dulzor que le da el toque a tu bebida.",
       featured: false,
       image:
-        "https://www.instagram.com/p/C2Ly7d2MG92/?img_index=1",
+        "/img/churros.png",
     },
     {
       name: "Tequeños",
@@ -155,7 +163,7 @@ const menuData = {
       description: "Un sabor saladito nunca viene mal.",
       featured: false,
       image:
-        "https://www.instagram.com/p/C2Ly7d2MG92/?img_index=2",
+        "/img/tequenos.png",
     },
     {
       name: "Papas Keros",
@@ -163,7 +171,7 @@ const menuData = {
       description: "Papas crujientes con dos salsas especiales de la casa.",
       featured: false,
       image:
-        "https://www.instagram.com/p/C2Ly7d2MG92/?img_index=3",
+        "/img/papas.png",
     },
   ],
   carnes: [
@@ -174,7 +182,7 @@ const menuData = {
         "Corazón cajamarquino en tu mesa.",
       featured: true,
       image:
-        "https://comidasperuanas.net/wp-content/uploads/2015/06/Anticuchos-de-Coraz%C3%B3n-Peruanos.jpg",
+        "/img/anticucho.png",
     },
     {
       name: "Lomo Saltado",
@@ -183,7 +191,7 @@ const menuData = {
         "Tiras de lomo fino salteadas con cebolla, tomate y papas fritas. El clásico peruano.",
       featured: false,
       image:
-        "https://agraria.pe/imgs/a/lx/un-plato-de-lomo-saltado-gourmet-a-65-soles-desata-intenso-d-15847.jpg",
+        "/img/lomo.png",
     },
     {
       name: "Bistec a lo Pobre",
@@ -192,7 +200,7 @@ const menuData = {
         "Bistec de res con huevo frito, plátano frito, papas fritas y arroz blanco.",
       featured: false,
       image:
-        "https://storage.googleapis.com/takeapp/media/cm3i7gujg00050cjn0o046y2m.jpg",
+        "/img/bistek.png",
     },
     {
       name: "Parrilla Keros",
@@ -201,7 +209,7 @@ const menuData = {
         "Selección de carnes a la parrilla: lomo, pollo, chorizo y anticuchos. Para compartir.",
       featured: true,
       image:
-        "https://images.unsplash.com/photo-1544025162-d76694265947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWF0JTIwZ3JpbGwlMjBwbGF0dGVyfGVufDF8fHx8MTczNzEwMDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "/img/parrilla.png",
     },
     {
       name: "Churrasco Cajamarquino",
@@ -210,7 +218,7 @@ const menuData = {
         "Churrasco de res a la parrilla con chimichurri de la casa, ensalada y papas nativas.",
       featured: false,
       image:
-        "https://www.farodapalloza.com/img/leoblog/b/1/63/lg-b-churrasco%20ternera-%20faro%20da%20palloza.jpg",
+        "/img/churrasco.png",
     },
   ],
 };
@@ -236,7 +244,7 @@ export function MenuSection() {
   const handleSendWhatsApp = () => {
     if (selectedItem) {
       const message = `Hola! Me gustaría ordenar:\n\n${selectedItem.name}\nPrecio: ${selectedItem.price}\n\n¿Está disponible?`;
-      const whatsappUrl = `https://wa.me/51976514444?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/51992344153?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, "_blank");
       setShowOrderDialog(false);
     }
