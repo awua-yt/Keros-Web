@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@vercel/analytics": "^1.6.1"
-  },
-  "devDependencies": {
-    "vite-plugin-sitemap": "^0.8.2"
-  }
-}
