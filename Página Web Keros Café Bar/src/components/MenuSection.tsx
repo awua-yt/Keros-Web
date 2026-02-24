@@ -59,16 +59,6 @@ const menuData = {
         "/img/late.png",
     },
     {
-      name: "Latte Vainilla",
-      price: "S/ 10.90",
-      description: "Suave y dulce, perfecto para cualquier momento del día.",
-      featured: false,
-      image:
-        "/img/late.png",
-    },
-  ],
-  cocteles: [
-    {
       name: "Algarrobina Keros",
       price: "S/ 14.90",
       description:
@@ -76,6 +66,17 @@ const menuData = {
       featured: true,
       image:
         "/img/algarrobina.png",
+    },
+  ],
+  cocteles: [
+    {
+      name: "Pisco Sour Keros",
+      price: "S/ 14.90",
+      description:
+        "¡Bebida emblemática peruana, ven a probarla!",
+      featured: true,
+      image:
+        "/img/pisco-sour.png",
     },
     {
       name: "Chilcano | Limón, Arándano, Fresa, Maracuyá",
@@ -298,7 +299,7 @@ export function MenuSection() {
                 item.featured ? "bg-[#FAFAFA] border-2 border-[#DC2626]" : "bg-gray-50"
               }`}
             >
-              {item.featured && item.image && (
+              {item.image && (
                 <div className="mb-4 rounded-lg overflow-hidden">
                   <ImageWithFallback
                     src={item.image}
