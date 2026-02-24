@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://keros-cafe.vercel.app/
+Sitemap: https://keros-cafe.vercel.app/sitemap.xml
