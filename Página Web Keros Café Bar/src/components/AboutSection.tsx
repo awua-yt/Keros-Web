@@ -32,10 +32,16 @@ export function AboutSection() {
               <h3 className="text-3xl text-[#1F2937]">Nuestra Historia</h3>
             </div>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Keros nació del sueño de crear un espacio donde la tradición cafetalera de
-              Cajamarca se encuentra con la innovación de la coctelería moderna. Nuestro
-              nombre evoca los vasos ceremoniales incas, símbolos de comunidad y
-              celebración.
+              Keros nació de un sueño vibrante: entrelazar la rica herencia cafetalera de
+              nuestra tierra con la magia de la coctelería de autor. Inspirados en los
+              keros, aquellos antiguos vasos ceremoniales que unían a las comunidades
+              incas en celebración, abrimos nuestras puertas en 2023.
+              
+              Desde entonces, nos hemos transformado en mucho más que un café-bar; somos
+              un refugio para quienes buscan compartir, conectar y disfrutar del momento
+              presente. Cada grano que molemos y cada cóctel que agitamos encierra un
+              fragmento de nuestra pasión, invitándote a sentarte a nuestra mesa y ser
+              parte de nuestra historia.  
             </p>
             <p className="text-gray-600 leading-relaxed">
               Fundado en 2023, nos hemos convertido en el punto de encuentro favorito de
